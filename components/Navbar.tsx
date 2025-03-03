@@ -1,0 +1,13 @@
+import React from 'react'
+import {motion} from "motion/react"
+
+function Navbar() {
+  return (
+    <div className=' flex bg-white px-8.5 py-5.5 justify-between items-center '>
+        <p className='text-black text-xl font-bold font-mono '>cuberto</p>
+        <p className='text-black mr-14'>menu</p>
+    </div>
+  )
+}
+
+export default Navbar
